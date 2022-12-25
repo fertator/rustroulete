@@ -1,0 +1,319 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-image: url(Imgs/6.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #160E23;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.main{
+	display: flex;
+	width: 75vw;
+	height: 100%;
+	background-image: url(Imgs/1.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	justify-content: center;
+	margin: 0 auto;
+	box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+}
+
+.circle{
+	background-image: url(Imgs/3.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 35vw;
+	height: 35vw;
+	align-self: center;
+	transition: transform 5s;
+	transition-timing-function: ease-out;
+	margin-left: 10px;
+}
+
+
+.hover{
+	transform: rotate(360deg);
+}
+
+.strelka {
+    background-image: url(Imgs/4.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 7vw;
+    height: 7vw;
+    align-self: center;
+    position: absolute;
+    margin-bottom: 32vw;
+    margin-left: 3vw;
+    z-index: 1;
+}
+
+.canvas{
+	display: flex;
+	width: 75vw;
+	height: 40vw;
+	background-image: url(Imgs/5.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: center;
+	margin: 0 auto;
+	overflow: hidden;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Rubik+Gemstones&family=Zen+Dots&display=swap');
+h1{
+	font-family: 'Courgette', cursive;
+	font-size: 6vw;
+	color: #FF3EB2;
+	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+h2{
+	font-family: 'Kanit', sans-serif;
+	color: #FF3EB2;
+	font-size: 3vw;
+	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.sp{
+	display: flex;
+}
+
+.sr{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.canvas_block{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	height: 10vw;
+	background-image: url(Imgs/7.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: center;
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+}
+
+.fb{
+	width: 20vw;
+	height: 100%;
+	display: flex;
+	background-image: url(Imgs/9.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: center;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding:0 1vw;
+}
+
+.ffb{
+	width: 10vw;
+	height: 100%;
+	background-image: url(Imgs/8.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.ffbb{
+	width: 4vw;
+	height: 4vw;
+
+}
+.but{
+	width: 100%;
+	height: 100%;
+}
+.sb{
+	background-image: url(Imgs/8.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: center;
+	width: 15vw;
+	height: 100%;
+
+}
+
+
+
+.tb{
+	background-image: url(Imgs/8.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: center;
+	width: 15vw;
+	height: 100%;
+
+}
+
+
+p{
+	font-family: 'Zen Dots', cursive;
+	font-size: 5vw;
+	margin-top: -1.25vw;
+}
+
+.stela{
+	width: 15vw;
+	height: 100%;
+	background-color: #FF3EB206;
+	border-color: #FF3EB200;
+	
+}
+
+.stela:hover{
+	box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+	cursor: pointer;
+}
+.bet{
+	width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    font-size: 5vw;
+    text-align: center;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    font-family: 'Zen Dots', cursive;
+    color: white;
+    margin-bottom: -2vw;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.but{
+	background-image: url(Imgs/11.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: center;
+    color: white;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    border-color: #FF3EB200;
+
+}
+
+.but:hover{
+	box-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+	cursor: pointer;
+}
+
+.strelochka{
+	width: 100%;
+	height: 100%;
+}
+
+.totlbet{
+	width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    font-size: 5vw;
+    text-align: center;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    font-family: 'Zen Dots', cursive;
+    color: white;
+    margin-top: 2vw;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+#rotate{
+	width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 4vw;
+    text-align: center;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    font-family: 'Zen Dots', cursive;
+    background-image: url(Imgs/2.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: center;
+    box-shadow:1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    cursor: pointer;
+    border-color: blue;
+    color: white;
+}
+
+
+.canvasbloc{
+	position: absolute;
+	background-color: black;
+	width: 75vw;
+	height: 10vw;
+	opacity: 80%;
+}
+
+.item{
+	height: 100%;
+	width: 10vw;
+	background-color: white;
+}
+
+.aa{
+	height: 100%;
+	width: 100%;
+    border-color: #2D241EFF;
+    box-shadow:1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    cursor: pointer;
+
+}
+
+.a1{
+	background-image: url(Imgs/12.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.a2{
+	background-image: url(Imgs/13.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.a3{
+	background-image: url(Imgs/14.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.a4{
+	background-image: url(Imgs/15.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.a5{
+	background-image: url(Imgs/16.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: center;
+}
